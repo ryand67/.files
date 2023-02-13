@@ -1,0 +1,17 @@
+window:
+  dimensions:
+    columns: 120
+    lines: 40
+
+font:
+  size: 14
+
+cursor:
+  style:
+    shape: Block
+    blinking: Off
+
+shell:
+  program: /usr/bin/fish
+  args:
+    - --login
