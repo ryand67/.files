@@ -18,6 +18,7 @@ alias c="clear"
 alias ch="clear && cd"
 alias cr="cargo run"
 alias conf="cd ~/.config/"
+alias confn="cd ~/.config/nvim"
 
 alias tmux="tmux new-session -A -s workspace -f ~/.config/tmux/.tmux.conf"
 
