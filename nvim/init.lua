@@ -3,6 +3,7 @@ require('plugins.configs.treesitter');
 require('plugins.configs.autopairs');
 require('plugins.configs.fidget');
 require('plugins.configs.telescope');
+require('plugins.configs.harpoon');
 require('keymaps')
 require('lsp')
 require('editor')
