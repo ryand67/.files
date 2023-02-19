@@ -17,8 +17,9 @@ alias ll="ls -al"
 alias c="clear"
 alias ch="clear && cd"
 alias cr="cargo run"
-alias conf="cd ~/.config/"
+alias conf="cd ~/.config"
 alias confn="cd ~/.config/nvim"
+alias cdos="cd ~/projects/open_source"
 
 alias tmux="tmux new-session -A -s workspace -f ~/.config/tmux/.tmux.conf"
 
