@@ -4,6 +4,7 @@ require('plugins.configs.autopairs');
 require('plugins.configs.fidget');
 require('plugins.configs.telescope');
 require('plugins.configs.harpoon');
+require('plugins.configs.dap');
 require('keymaps')
 require('lsp')
 require('editor')

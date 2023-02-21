@@ -21,6 +21,10 @@ alias conf="cd ~/.config"
 alias confn="cd ~/.config/nvim"
 alias cdos="cd ~/projects/open_source"
 
+alias gs="git status"
+alias ga="git add ."
+alias gne="git commit --amend --no-edit"
+
 alias tmux="tmux new-session -A -s workspace -f ~/.config/tmux/.tmux.conf"
 
 tmux kill-session -a

@@ -52,4 +52,9 @@ return require('packer').startup(function(use)
     }
     use 'j-hui/fidget.nvim'
     use 'sbdchd/neoformat'
+
+    -- Dap
+    use 'mfussenegger/nvim-dap'
+    use 'rcarriga/nvim-dap-ui'
+    use 'leoluz/nvim-dap-go'
 end)

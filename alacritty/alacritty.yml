@@ -10,6 +10,9 @@ cursor:
   style:
     shape: Block
     blinking: Off
+  vi_mode_style:
+    shape: Block
+    blinking: Off
 
 shell:
   program: /usr/bin/fish
