@@ -19,6 +19,9 @@ shell:
   args:
     - --login
 
+scrolling:
+  history: 1000
+
 key_bindings:
   - { key: PageUp,   mods: Shift, action: ScrollPageUp,   mode: ~Alt }
   - { key: PageDown, mods: Shift, action: ScrollPageDown, mode: ~Alt }

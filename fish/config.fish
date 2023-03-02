@@ -34,7 +34,11 @@ clear
 clear
 
 function nv
-    nvim $argv
+    /snap/bin/nvim $argv
+end
+
+function dev_nv
+    /usr/local/bin/nvim $argv
 end
 
 function sql

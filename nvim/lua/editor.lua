@@ -24,7 +24,7 @@ vim.opt.undofile = true
 vim.opt.scrolloff = 8
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-    pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua" },
+    pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h" },
     callback = function()
         vim.lsp.buf.formatting_sync()
     end
