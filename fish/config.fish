@@ -20,6 +20,7 @@ alias cr="cargo run"
 alias conf="cd ~/.config"
 alias confn="cd ~/.config/nvim"
 alias cdos="cd ~/projects/open_source"
+alias doom="~/.config/emacs/bin/doom"
 
 alias gs="git status"
 alias ga="git add ."
