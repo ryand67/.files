@@ -1,10 +1,13 @@
 vim.cmd [[ packadd packer.nvim ]]
-vim.cmd [[ colorscheme gruvbox ]]
+-- vim.cmd [[ colorscheme gruvbox ]]
+vim.cmd [[ colorscheme gruvbox-material ]]
+vim.g.gruvbox_material_background = "hard"
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'airblade/vim-gitgutter'
-    use 'morhetz/gruvbox'
+    -- use 'morhetz/gruvbox'
+    use 'sainnhe/gruvbox-material'
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
         -- or                            , branch = '0.1.x',
@@ -12,6 +15,7 @@ return require('packer').startup(function(use)
     }
 
     use 'ThePrimeagen/harpoon'
+    use 'hrsh7th/cmp-nvim-lsp-signature-help'
     use 'tpope/vim-surround'
     use 'vim-airline/vim-airline'
     use 'nvim-treesitter/nvim-treesitter-context'
