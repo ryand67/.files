@@ -1,1 +1,1 @@
-return require('fidget').setup{}
+return require('fidget').setup {}
