@@ -9,16 +9,18 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set('n', 'ts', function()
-	vim.cmd[[ tab split ]]
+    vim.cmd [[ tab split ]]
 end)
 
 vim.keymap.set('n', 'tc', function()
-	vim.cmd[[ tab close ]]
+    vim.cmd [[ tab close ]]
 end)
 
 vim.keymap.set('n', 'gb', function()
-	vim.cmd[[Git blame]]
+    vim.cmd [[Git blame]]
 end)
+
+vim.keymap.set('n', '<leader>ge', "oif err != nil {<CR>}<Esc>Oreturn err")
 
 -- Telescope
 local builtin = require('telescope.builtin')
