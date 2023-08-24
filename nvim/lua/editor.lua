@@ -23,6 +23,9 @@ vim.opt.undofile = true
 
 vim.opt.scrolloff = 8
 
+vim.opt.cursorcolumn = true
+vim.opt.cursorline = true
+
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
     pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h" },
     callback = function()
