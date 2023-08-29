@@ -39,12 +39,12 @@ lsp.on_attach(function(client, bufnr)
     vim.keymap.set("i", "<C-h>", function() vim.lsp.buf.signature_help() end, opts)
 end)
 
-vim.diagnostic.config({
-    virtual_text = true,
-    signs = true
-})
-
 -- (Optional) Configure lua language server for neovim
 lsp.nvim_workspace()
 
 lsp.setup()
+
+vim.diagnostic.config({
+    virtual_text = true,
+    signs = true
+})
