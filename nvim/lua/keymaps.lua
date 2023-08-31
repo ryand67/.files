@@ -8,6 +8,9 @@ vim.keymap.set('i', 'kj', '<Esc>')
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
+vim.keymap.set("n", "<leader>fwb", ":Focuswatch sw_start<CR>")
+vim.keymap.set("n", "<leader>fwe", ":Focuswatch sw_stop<CR>")
+
 vim.keymap.set('n', 'ts', function()
     vim.cmd [[ tab split ]]
 end)

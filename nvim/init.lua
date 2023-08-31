@@ -8,3 +8,4 @@ require('plugins.configs.dap');
 require('keymaps')
 require('lsp')
 require('editor')
+require('globals')

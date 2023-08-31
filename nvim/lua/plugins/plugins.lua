@@ -54,11 +54,15 @@ return require('packer').startup(function(use)
             { 'rafamadriz/friendly-snippets' }, -- Optional
         }
     }
-    use { 'j-hui/fidget.nvim', { tag = "legacy" } }
+    use { 'j-hui/fidget.nvim', tag = 'legacy' }
     use 'sbdchd/neoformat'
 
     -- Dap
     use 'mfussenegger/nvim-dap'
     use 'rcarriga/nvim-dap-ui'
     use 'leoluz/nvim-dap-go'
+
+    use 'ryand67/focuswatch.nvim'
+
+    -- Personal Plugins
 end)
