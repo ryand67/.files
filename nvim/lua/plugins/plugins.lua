@@ -1,6 +1,7 @@
 vim.cmd [[ packadd packer.nvim ]]
 -- vim.cmd [[ colorscheme gruvbox ]]
-vim.cmd [[ colorscheme gruvbox-material ]]
+-- vim.cmd [[ colorscheme gruvbox-material ]]
+vim.cmd [[colorscheme tokyonight]]
 vim.g.gruvbox_material_background = "hard"
 
 return require('packer').startup(function(use)
@@ -8,6 +9,8 @@ return require('packer').startup(function(use)
     use 'airblade/vim-gitgutter'
     -- use 'morhetz/gruvbox'
     use 'sainnhe/gruvbox-material'
+    use 'folke/tokyonight.nvim'
+
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
         -- or                            , branch = '0.1.x',
