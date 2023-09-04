@@ -10,6 +10,8 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "<leader>fwb", ":Focuswatch sw_start<CR>")
 vim.keymap.set("n", "<leader>fwe", ":Focuswatch sw_stop<CR>")
+vim.keymap.set("n", "<leader>fwtb", ":Focuswatch timer_start<CR>")
+vim.keymap.set("n", "<leader>fwte", ":Focuswatch timer_stop<CR>")
 
 vim.keymap.set('n', 'ts', function()
     vim.cmd [[ tab split ]]

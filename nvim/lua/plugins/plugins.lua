@@ -1,7 +1,7 @@
 vim.cmd [[ packadd packer.nvim ]]
 -- vim.cmd [[ colorscheme gruvbox ]]
 -- vim.cmd [[ colorscheme gruvbox-material ]]
-vim.cmd [[colorscheme tokyonight]]
+vim.cmd [[colorscheme tokyonight-storm]]
 vim.g.gruvbox_material_background = "hard"
 
 return require('packer').startup(function(use)
@@ -65,7 +65,8 @@ return require('packer').startup(function(use)
     use 'rcarriga/nvim-dap-ui'
     use 'leoluz/nvim-dap-go'
 
-    use 'ryand67/focuswatch.nvim'
+    -- use 'ryand67/focuswatch.nvim'
+    use '~/projects/plugins_nv/focus_watch.nvim'
 
     -- Personal Plugins
 end)
