@@ -49,3 +49,10 @@ end
 
 # opam configuration
 source /home/rdevenney/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true
+
+# pnpm
+set -gx PNPM_HOME "/home/rdevenney/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
