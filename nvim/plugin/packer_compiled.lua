@@ -114,10 +114,10 @@ _G.packer_plugins = {
     path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
-  ["focus_watch.nvim"] = {
+  ["focuswatch.nvim"] = {
     loaded = true,
-    path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/focus_watch.nvim",
-    url = "/home/rdevenney/projects/plugins_nv/focus_watch.nvim"
+    path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/focuswatch.nvim",
+    url = "https://github.com/ryand67/focuswatch.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
