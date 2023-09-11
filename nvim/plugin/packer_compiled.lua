@@ -114,10 +114,10 @@ _G.packer_plugins = {
     path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/fidget.nvim",
     url = "https://github.com/j-hui/fidget.nvim"
   },
-  ["focuswatch.nvim"] = {
+  ["focus_watch.nvim"] = {
     loaded = true,
-    path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/focuswatch.nvim",
-    url = "https://github.com/ryand67/focuswatch.nvim"
+    path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/focus_watch.nvim",
+    url = "/home/rdevenney/projects/plugins_nv/focus_watch.nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -209,6 +209,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["regview.nvim"] = {
+    loaded = true,
+    path = "/home/rdevenney/.local/share/nvim/site/pack/packer/start/regview.nvim",
+    url = "/home/rdevenney/projects/plugins_nv/regview.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

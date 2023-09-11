@@ -66,7 +66,7 @@ return require('packer').startup(function(use)
     use 'leoluz/nvim-dap-go'
 
     use 'ryand67/focuswatch.nvim'
-    -- use '~/projects/plugins_nv/focus_watch.nvim'
+    use '~/projects/plugins_nv/regview.nvim'
 
     -- Personal Plugins
 end)
