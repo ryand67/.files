@@ -65,6 +65,8 @@ return require('packer').startup(function(use)
     use 'rcarriga/nvim-dap-ui'
     use 'leoluz/nvim-dap-go'
 
+    use 'NvChad/nvim-colorizer.lua'
+
     use 'ryand67/focuswatch.nvim'
     use '~/projects/plugins_nv/regview.nvim'
 
