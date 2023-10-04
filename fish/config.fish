@@ -22,6 +22,8 @@ alias conf="cd ~/.config"
 alias confn="cd ~/.config/nvim"
 alias cdp="cd ~/projects"
 alias cdos="cd ~/projects/open_source"
+alias nvdev="~/projects/open_source/neovim/build/bin/nvim"
+alias b="./build.sh"
 
 alias gs="git status"
 alias ga="git add ."
