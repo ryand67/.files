@@ -10,6 +10,7 @@ return require('packer').startup(function(use)
     -- use 'morhetz/gruvbox'
     use 'sainnhe/gruvbox-material'
     use 'folke/tokyonight.nvim'
+    use "lukas-reineke/indent-blankline.nvim"
 
     use {
         'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -67,7 +68,8 @@ return require('packer').startup(function(use)
 
     use 'NvChad/nvim-colorizer.lua'
 
-    use 'ryand67/focuswatch.nvim'
+    -- use 'ryand67/focuswatch.nvim'
+    use '~/projects/plugins_nv/focus_watch.nvim'
     use '~/projects/plugins_nv/regview.nvim'
 
     -- Personal Plugins

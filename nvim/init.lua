@@ -6,6 +6,7 @@ require('plugins.configs.telescope');
 require('plugins.configs.harpoon');
 require('plugins.configs.dap');
 require('plugins.configs.colorizer');
+require('plugins.configs.blankline');
 require('keymaps')
 require('lsp')
 require('editor')

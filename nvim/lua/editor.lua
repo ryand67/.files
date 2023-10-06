@@ -27,7 +27,7 @@ vim.opt.cursorcolumn = true
 vim.opt.cursorline = true
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-    pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "**/!(open_source)/*.c", "*.cpp", "*.h" },
+    pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h", "*.ml" },
     callback = function()
         vim.lsp.buf.format()
     end
