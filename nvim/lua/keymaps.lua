@@ -37,6 +37,7 @@ vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})
 vim.keymap.set('n', '<leader>fh', builtin.help_tags, {})
 vim.keymap.set('n', '<leader>km', builtin.keymaps, {})
+vim.keymap.set('n', '<leader>sr', builtin.resume, { desc = 'Search Resume' })
 
 -- Fugitive
 vim.keymap.set('n', '<leader>gs', vim.cmd.Git)
