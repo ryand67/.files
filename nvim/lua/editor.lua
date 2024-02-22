@@ -26,6 +26,9 @@ vim.opt.scrolloff = 8
 vim.opt.cursorcolumn = true
 vim.opt.cursorline = true
 
+vim.opt.list = true
+vim.opt.listchars = { tab = '» ', trail = '.' }
+
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
     pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h", "*.ml" },
     callback = function()
