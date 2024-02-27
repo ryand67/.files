@@ -6,7 +6,7 @@ vim.opt.wrap = true
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true
+vim.opt.expandtab = false
 
 vim.opt.ignorecase = true
 vim.opt.incsearch = true
@@ -33,8 +33,8 @@ vim.opt.splitright = true
 vim.opt.splitbelow = true
 
 vim.api.nvim_create_autocmd({ "BufWritePre" }, {
-    pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h", "*.ml" },
-    callback = function()
-        vim.lsp.buf.format()
-    end
+	pattern = { "*.js", "*.ts", "*.rs", "*.go", "*.lua", "*.c", "*.cpp", "*.h", "*.ml" },
+	callback = function()
+		vim.lsp.buf.format()
+	end
 })
