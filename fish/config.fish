@@ -37,7 +37,7 @@ clear
 
 clear
 
-function nv
+function vi
     /snap/bin/nvim $argv
 end
 
