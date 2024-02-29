@@ -14,7 +14,6 @@ vim.opt.showmatch = true
 vim.opt.smartcase = true
 vim.opt.hlsearch = false
 
-print(vim.g.colors_name)
 if vim.g.colors_name == 'tokyonight-night' then
 	vim.opt.colorcolumn = '80'
 end
