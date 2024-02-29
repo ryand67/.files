@@ -100,6 +100,7 @@ local plugins = {
 		'stevearc/conform.nvim',
 		opts = {},
 	},
+	'tpope/vim-sleuth',
 
 	-- Dap
 	'mfussenegger/nvim-dap',
