@@ -7,6 +7,7 @@ require('plugins.configs.harpoon');
 require('plugins.configs.dap');
 require('plugins.configs.colorizer');
 require('plugins.configs.blankline');
+require('plugins.configs.conform');
 require('keymaps')
 require('editor')
 require('lsp')
