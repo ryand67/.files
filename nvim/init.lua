@@ -8,6 +8,6 @@ require('plugins.configs.dap');
 require('plugins.configs.colorizer');
 require('plugins.configs.blankline');
 require('keymaps')
-require('lsp')
 require('editor')
+require('lsp')
 require('globals')
