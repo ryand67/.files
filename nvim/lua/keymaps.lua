@@ -17,6 +17,10 @@ vim.keymap.set("n", "<leader>q", ":copen<CR>", { desc = "Open Quickfix List" })
 vim.keymap.set("n", "<leader>k", ":cprev<CR>", { desc = "Goto Previous Quick List Item" })
 vim.keymap.set("n", "<leader>j", ":cnext<CR>", { desc = "Goto Next Quickfix List Item" })
 
+vim.keymap.set("n", "<leader>og", ":.GBrowse<CR>", { desc = "[O]pen [G]ithub" })
+
+vim.keymap.set("n", "<leader>vs", ":/\\%V", { desc = "Search last visual selection" })
+
 vim.keymap.set("n", "<leader>lr", ":LspRestart<CR>", { desc = "Lsp Restart" })
 
 vim.keymap.set("i", "kj", "<Esc>")
@@ -59,16 +63,13 @@ vim.keymap.set("n", "<leader>/", builtin.current_buffer_fuzzy_find, { desc = "Cu
 
 -- folke/trouble.nvim
 vim.keymap.set("n", "<leader>xx", function()
-	require("trouble").toggle()
+	vim.cmd([[ Trouble diagnostics toggle ]])
 end, { desc = "Launch Trouble" })
-vim.keymap.set("n", "<leader>xw", function()
-	require("trouble").toggle("workspace_diagnostics")
-end, { desc = "Trouble Workplace Diagonostics" })
 vim.keymap.set("n", "<leader>xd", function()
-	require("trouble").toggle("document_diagnostics")
-end, { desc = "Trouble Document Diagnostics" })
+	vim.cmd([[ Trouble diagnostics toggle filter.buf=0 ]])
+end, { desc = "Trouble Buffer Diagnostics" })
 vim.keymap.set("n", "<leader>xq", function()
-	require("trouble").toggle("quickfix")
+	vim.cmd([[ Trouble qflist toggle ]])
 end, { desc = "Trouble Quickfix" })
 vim.keymap.set("n", "<leader>xl", function()
 	require("trouble").toggle("loclist")

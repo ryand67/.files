@@ -39,13 +39,8 @@ local plugins = {
 	{ "marko-cerovac/material.nvim" },
 	{
 		"folke/trouble.nvim",
-		lazy = true,
-		dependencies = { "nvim-tree/nvim-web-devicons" },
-		opts = {
-			-- your configuration comes here
-			-- or leave it empty to use the default settings
-			-- refer to the configuration section below
-		},
+		opts = {}, -- for default options, refer to the configuration section for custom setup.
+		cmd = "Trouble",
 	},
 	{ -- Adds git related signs to the gutter, as well as utilities for managing changes
 		"lewis6991/gitsigns.nvim",
@@ -95,6 +90,7 @@ local plugins = {
 	},
 
 	"tpope/vim-fugitive",
+	"tpope/vim-rhubarb",
 	"alvan/vim-closetag",
 	{
 		"numToStr/Comment.nvim",
